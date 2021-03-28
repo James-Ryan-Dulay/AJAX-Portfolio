@@ -1,0 +1,189 @@
+* {
+	font-family: 'Padauk', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+
+body {
+}
+
+/*                  HEADER STYLING                  */
+
+header div {
+	background-color: darkcyan;
+	font-size: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	letter-spacing: 5px;
+	padding-left: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+
+header a:hover {
+	color: #3be718;
+	transition: 0.2s;
+}
+
+#shoppingCartTop {
+	height: 50%;
+	/* outline: 2px dotted red; */
+	font-size: 20px;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	color: white;
+	width: 7%;
+}
+
+#shoppingCartTop img {
+	width: 50px;
+	height: 45px;
+}
+
+/*                  NAVBAR STYLING                  */
+
+nav {
+	display: none;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	background-color: darkseagreen;
+	padding: 20px;
+}
+
+ul li {
+	list-style: none;
+	font-size: 2rem;
+	letter-spacing: 5px;
+	color: white;
+	transition: 0.5s;
+}
+
+ul li:hover {
+	color: #3be718;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+/*                  MAIN-CONTENT STYLING                  */
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+}
+
+#mensCategory div , 
+#womensCategory div , 
+#jeweleryCategory div , 
+#electronicCategory div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+main div p {
+	text-align: center;
+}
+
+main div img {
+	width: 20%;
+	padding: 20px;
+    box-shadow: 7px 6px 8px black;
+
+}
+
+main hr {
+	border: 1px solid black;
+	width: 70vw;
+}
+
+#productTitle {
+	font-size: 2.5rem;
+	padding: 20px;a
+}
+
+#productDescription {
+	font-size: 1.2rem;
+	font-style: italic;
+	color: #808080;
+	padding: 20px;
+}
+
+#productPrice {
+	font-size: 2rem;
+	padding: 20px;
+    font-style: oblique;
+}
+
+#productId {
+    display: none;
+}
+
+#backToTop {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+#backToTop button {
+	width: 30%;
+	margin: 10px;
+	border: none;
+	transition: 0.3s;
+	margin: 10px;
+	font-size: 2rem;
+	border-radius: 20px;
+	background-color: darkseagreen;
+	color: white;a
+}
+
+#backToTop button:hover {
+    color:  #3be718;
+    cursor: pointer;
+}
+
+main .itemQuantity {
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+main form {
+    width: 25%;
+}
+
+main button {
+    padding: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkseagreen;
+    color: white;
+    transition: 0.2s;
+    padding: 5px;
+}
+
+main button:hover {
+    color: #3be718;
+    transition: 0.2s;
+    cursor: pointer;
+}

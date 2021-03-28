@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Padauk&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>AJAX Portfolio</title>
+	</head>
+	<body>
+		<!--                    HEADER                   -->
+
+		<header>
+			<div>
+				<a href="">THE SOUTHFACE</a>
+				<div id="shoppingCartTop">
+					<a href=""><img src="carts.png" alt="shopping cart" /></a>
+					<p id="totalAmount">$0</p>
+				</div>
+			</div>
+		</header>
+
+		<!--                    NAVBAR                   -->
+
+		<nav>
+			<ul>
+				<li id="mensTab">Mens</li>
+				<li id="womensTab">Womens</li>
+				<li id="jeweleryTab">Jewelery</li>
+				<li id="electronicTab">Electronics</li>
+			</ul>
+		</nav>
+
+		<!--                    MAIN CONTENT                   -->
+		<main>
+			<div id="mensCategory"></div>
+			<div id="womensCategory"></div>
+			<div id="jeweleryCategory"></div>
+			<div id="electronicCategory"></div>
+		</main>
+
+		<div id="backToTop"><button>BACK TO TOP</button></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
