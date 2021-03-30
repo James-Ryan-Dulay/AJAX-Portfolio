@@ -22,7 +22,6 @@ $(document).ready(function () {
 			} else if (data[i].category === 'women clothing') {
 				console.log('hello');
 				$('#womensCategory').append(`
-                    <p id='productId'> ${data[i].id} </p>
                     <p id='productTitle'> ${data[i].title} </p>
                     <p id='productDescription'> ${data[i].description} </p>
                     <img src='${data[i].image}'>
@@ -38,7 +37,6 @@ $(document).ready(function () {
 			} else if (data[i].category === 'jewelery') {
 				console.log('hello');
 				$('#jeweleryCategory').append(`
-                    <p id='productId'> ${data[i].id} </p>
                     <p id='productTitle'> ${data[i].title} </p>
                     <p id='productDescription'> ${data[i].description} </p>
                     <img src='${data[i].image}'>
@@ -54,7 +52,6 @@ $(document).ready(function () {
 			} else if (data[i].category === 'electronics') {
 				console.log('hello');
 				$('#electronicCategory').append(`
-                    <p id='productId'> ${data[i].id} </p>
                     <p id='productTitle'> ${data[i].title} </p>
                     <p id='productDescription'> ${data[i].description} </p>
                     <img src='${data[i].image}'>
