@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$.get('https://fakestoreapi.com/products', function (data) {
 		console.log(data[0].title);
 		for (var i = 0; i < data.length; i++) {
-			if (data[i].category === 'men clothing') {
+			if (data[i].category === "men's clothing") {
 				console.log('hello');
 				$('#mensCategory').append(`
                     <p id='productTitle'> ${data[i].title} </p>
@@ -19,7 +19,7 @@ $(document).ready(function () {
                     </div>
                     <hr />
                 `);
-			} else if (data[i].category === 'women clothing') {
+			} else if (data[i].category === "women's clothing") {
 				console.log('hello');
 				$('#womensCategory').append(`
                     <p id='productTitle'> ${data[i].title} </p>
